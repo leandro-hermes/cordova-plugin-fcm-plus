@@ -10,9 +10,13 @@
 3. Generate the config file(s): for Android 'google-services.json'. For iOS 'GoogleService-Info.plist'. Move them to the project root folder (e.g. the location of cordova config.xml, www etc)
 4. Install the plugin:
 ```Bash
-cordova plugin add https://github.com/guyromb/cordova-plugin-fcm-plus --save
+cordova plugin add https://github.com/leandro-hermes/cordova-plugin-fcm-plus --save
 
 ```
+5. Copy the `google-services.json` file to the following directories:
+
+  - platforms/android/google-services.json
+  - platforms/android/app/google-services.json
 
 ##Usage
 
